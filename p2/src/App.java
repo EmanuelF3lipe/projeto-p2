@@ -7,6 +7,6 @@ public class App {
 
         System.out.println("Digite seu nome: ");
         String nome = escaner.nextLine();
-        System.out.println("Olá! "+nome);
+        System.out.println("Olá! "+nome+" Seu gostoso");
     }
 }
