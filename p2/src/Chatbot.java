@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 
 public class Chatbot {
+    //private enum raças{DRACONATO, ORC, HUMANO, ELFO};
     public static void main(String[] args) throws Exception {
         Scanner n = new Scanner(System.in);
 
@@ -10,7 +11,7 @@ public class Chatbot {
         System.out.println("\n Primeiro me diga seu nome, aventureiro:");
         String nome = n.nextLine();
         System.out.println("Aah, então seu nome é "+ nome +" , é um prazer conheçer você\n agora iremos passar por tres etapas, primeiro você vai escolher a raça do seu persnoagem, depois a sua classe e depois seu antecedente.");
-        System.out.println("\n agora você deve escolher uma raça para seu pernosagem, sendo elas 1 - draconato, 2 - orc, 3 - humano e 4 - elfo.(Digite o numero correspondente a Raça)");
+        System.out.println("\n agora você deve escolher uma raça para seu pernosagem, sendo elas 1-draconato, 2 - orc, 3 - humano e 4 - elfo.(Digite o numero correspondente a Raça)");
         String raça = n.nextLine();
         System.out.println("Muito Bem!, agora escolha sua classe, classe é o que define as habilidades e poderes do seu personagem, escolha entre 1 - Barbaro, 2 - Patrulheiro, 3 - Paladino, 4 - Mago e 5 - monge(escolha o numero correspondente a classe)");
         String classe = n.nextLine();
