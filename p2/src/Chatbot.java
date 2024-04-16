@@ -81,9 +81,13 @@ public class Chatbot {
 
 
 
-        System.out.println("Parabens você criou um "+ raça + " ,com sua classe sendo "+ classe + "  e seu antecedente "+ antecedente + " ,Pra finalizar diga um nome pro seu personagem "+ nome +".");
+        System.out.println("Pra finalizar diga um nome pro seu personagem: ");
         String nome_persona = n.nextLine();
         
-        System.out.println("\n o seu personagem , "+ nome_persona + " ,está pronto para aventura divirta-se jogando e até a proxima!!");
+        System.out.println("\n Resumo do personagem");
+        System.out.println("Nome: "+ nome_persona);
+        System.out.println("Classe: "+classe);
+        System.out.println("Antecedente: "+antecedente);
+        System.out.println("Raça: "+raça);
     }
 }
